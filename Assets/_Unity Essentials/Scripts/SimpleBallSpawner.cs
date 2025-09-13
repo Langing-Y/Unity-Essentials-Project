@@ -36,7 +36,7 @@ public class SimpleBallSpawner : MonoBehaviour
                 Instantiate(ballPrefab, spawnPoint.position, spawnPoint.rotation);
                 hasSpawned = true;
 
-                Debug.Log("小球已生成！");
+                //Debug.Log("小球已生成！");
             }
         }
     }
